@@ -1,0 +1,1870 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Revolución Mexicana (1910–1917) | Portal Histórico Editorial</title>
+    <!-- Carga de Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Roboto', 'system-ui', '-apple-system', 'sans-serif'],
+                    },
+                    colors: {
+                        monsterBlack: '#0F0F12',
+                        monsterDark: '#18181D',
+                        monsterPurple: '#6E00FF',
+                        monsterPurpleHover: '#5800CC',
+                        monsterLime: '#00E676',
+                        monsterRed: '#FF2E4C',
+                        monsterGray: '#F4F4F7',
+                        monsterBorder: '#E2E2E8',
+                        monsterMuted: '#5A5A66'
+                    },
+                    boxShadow: {
+                        'neo': '4px 4px 0px 0px #0F0F12',
+                        'neo-purple': '4px 4px 0px 0px #6E00FF',
+                        'neo-lime': '4px 4px 0px 0px #00E676',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Reglas @font-face exactas proporcionadas para Roboto (pesos 400, 500 y 900) */
+        /* cyrillic-ext */
+        @font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 400;
+          font-stretch: 100%;
+          src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3GUBGEe.woff2) format('woff2');
+          unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+        }
+        /* cyrillic */
+        @font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 400;
+          font-stretch: 100%;
+          src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3iUBGEe.woff2) format('woff2');
+          unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+        }
+        /* greek-ext */
+        @font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 400;
+          font-stretch: 100%;
+          src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3CUBGEe.woff2) format('woff2');
+          unicode-range: U+1F00-1FFF;
+        }
+        /* greek */
+        @font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 400;
+          font-stretch: 100%;
+          src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3-UBGEe.woff2) format('woff2');
+          unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+        }
+        /* math */
+        @font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 400;
+          font-stretch: 100%;
+          src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMawCUBGEe.woff2) format('woff2');
+          unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-209F, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF;
+        }
+        /* symbols */
+        @font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 400;
+          font-stretch: 100%;
+          src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMaxKUBGEe.woff2) format('woff2');
+          unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AE, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F8D0-1F8D8, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FAC6, U+1FAC8, U+1FACC-1FADD, U+1FADF-1FAEB, U+1FAEF-1FAFA, U+1FB00-1FBFF;
+        }
+        /* vietnamese */
+        @font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 400;
+          font-stretch: 100%;
+          src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3OUBGEe.woff2) format('woff2');
+          unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+        }
+        /* latin-ext */
+        @font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 400;
+          font-stretch: 100%;
+          src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3KUBGEe.woff2) format('woff2');
+          unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+        /* latin */
+        @font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 400;
+          font-stretch: 100%;
+          src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2) format('woff2');
+          unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+        /* cyrillic-ext */
+        @font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 500;
+          font-stretch: 100%;
+          src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3GUBGEe.woff2) format('woff2');
+          unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+        }
+        /* cyrillic */
+        @font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 500;
+          font-stretch: 100%;
+          src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3iUBGEe.woff2) format('woff2');
+          unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+        }
+        /* greek-ext */
+        @font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 500;
+          font-stretch: 100%;
+          src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3CUBGEe.woff2) format('woff2');
+          unicode-range: U+1F00-1FFF;
+        }
+        /* greek */
+        @font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 500;
+          font-stretch: 100%;
+          src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3-UBGEe.woff2) format('woff2');
+          unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+        }
+        /* math */
+        @font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 500;
+          font-stretch: 100%;
+          src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMawCUBGEe.woff2) format('woff2');
+          unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-209F, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF;
+        }
+        /* symbols */
+        @font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 500;
+          font-stretch: 100%;
+          src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMaxKUBGEe.woff2) format('woff2');
+          unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AE, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F8D0-1F8D8, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FAC6, U+1FAC8, U+1FACC-1FADD, U+1FADF-1FAEB, U+1FAEF-1FAFA, U+1FB00-1FBFF;
+        }
+        /* vietnamese */
+        @font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 500;
+          font-stretch: 100%;
+          src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3OUBGEe.woff2) format('woff2');
+          unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+        }
+        /* latin-ext */
+        @font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 500;
+          font-stretch: 100%;
+          src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3KUBGEe.woff2) format('woff2');
+          unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+        /* latin */
+        @font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 500;
+          font-stretch: 100%;
+          src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2) format('woff2');
+          unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+        /* cyrillic-ext */
+        @font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 900;
+          font-stretch: 100%;
+          src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3GUBGEe.woff2) format('woff2');
+          unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+        }
+        /* cyrillic */
+        @font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 900;
+          font-stretch: 100%;
+          src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3iUBGEe.woff2) format('woff2');
+          unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+        }
+        /* greek-ext */
+        @font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 900;
+          font-stretch: 100%;
+          src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3CUBGEe.woff2) format('woff2');
+          unicode-range: U+1F00-1FFF;
+        }
+        /* greek */
+        @font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 900;
+          font-stretch: 100%;
+          src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3-UBGEe.woff2) format('woff2');
+          unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+        }
+        /* math */
+        @font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 900;
+          font-stretch: 100%;
+          src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMawCUBGEe.woff2) format('woff2');
+          unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-209F, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF;
+        }
+        /* symbols */
+        @font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 900;
+          font-stretch: 100%;
+          src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMaxKUBGEe.woff2) format('woff2');
+          unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AE, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F8D0-1F8D8, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FAC6, U+1FAC8, U+1FACC-1FADD, U+1FADF-1FAEB, U+1FAEF-1FAFA, U+1FB00-1FBFF;
+        }
+        /* vietnamese */
+        @font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 900;
+          font-stretch: 100%;
+          src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3OUBGEe.woff2) format('woff2');
+          unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+        }
+        /* latin-ext */
+        @font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 900;
+          font-stretch: 100%;
+          src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3KUBGEe.woff2) format('woff2');
+          unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+        /* latin */
+        @font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 900;
+          font-stretch: 100%;
+          src: url(https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2) format('woff2');
+          unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        /* Estilos editoriales estilo Monster: alto contraste y nitidez tipográfica */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #FFFFFF;
+            color: #0F0F12;
+        }
+
+        /* Subrayado neón estilo Monster */
+        .monster-highlight {
+            position: relative;
+            display: inline-block;
+            z-index: 1;
+        }
+        .monster-highlight::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 4px;
+            width: 100%;
+            height: 12px;
+            background-color: #00E676;
+            z-index: -1;
+            transform: skewX(-6deg);
+        }
+
+        .monster-highlight-purple::after {
+            background-color: #6E00FF;
+        }
+
+        /* Animación de entrada limpia */
+        .reveal {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.55s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Scrollbar de alto contraste */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0F0F12;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #6E00FF;
+            border: 2px solid #0F0F12;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #00E676;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-monsterPurple selection:text-white">
+
+    <!-- Notificación Toast Flotante -->
+    <div id="toast-notification" class="fixed bottom-6 right-6 z-50 transform translate-y-24 opacity-0 transition-all duration-300 pointer-events-none">
+        <div class="bg-monsterBlack text-white px-5 py-3.5 rounded-xl border-2 border-monsterLime shadow-neo-lime flex items-center gap-3">
+            <span class="w-6 h-6 rounded-full bg-monsterLime text-monsterBlack flex items-center justify-center font-black text-xs">✓</span>
+            <p id="toast-message" class="text-sm font-medium">Acción completada</p>
+        </div>
+    </div>
+
+    <!-- BARRA DE NAVEGACIÓN ESTILO MONSTER -->
+    <header class="sticky top-0 z-40 bg-monsterBlack text-white border-b-2 border-monsterDark">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-18 py-3.5">
+                <!-- Marca / Logotipo Editorial Audaz -->
+                <a href="#inicio" class="flex items-center gap-3 group">
+                    <div class="w-10 h-10 rounded-lg bg-monsterPurple text-white flex items-center justify-center font-black text-xl tracking-tighter border-2 border-white group-hover:bg-monsterLime group-hover:text-monsterBlack transition-colors">
+                        M/10
+                    </div>
+                    <div class="leading-none">
+                        <span class="font-black tracking-tight text-white text-lg sm:text-xl block uppercase">MÉXICO <span class="text-monsterLime">1910–1917</span></span>
+                        <span class="text-[11px] font-medium text-white/60 tracking-widest uppercase">Archivo Histórico Editorial</span>
+                    </div>
+                </a>
+
+                <!-- Navegación Desktop -->
+                <nav class="hidden lg:flex items-center space-x-1">
+                    <a href="#antecedentes" class="px-3.5 py-2 rounded-lg text-sm font-medium text-white/85 hover:text-monsterLime hover:bg-white/5 transition">Causas</a>
+                    <a href="#cronologia" class="px-3.5 py-2 rounded-lg text-sm font-medium text-white/85 hover:text-monsterLime hover:bg-white/5 transition">Línea del Tiempo</a>
+                    <a href="#personajes" class="px-3.5 py-2 rounded-lg text-sm font-medium text-white/85 hover:text-monsterLime hover:bg-white/5 transition">Directorio de Líderes</a>
+                    <a href="#galeria" class="px-3.5 py-2 rounded-lg text-sm font-medium text-white/85 hover:text-monsterLime hover:bg-white/5 transition">Galería</a>
+                    <a href="#constitucion" class="px-3.5 py-2 rounded-lg text-sm font-medium text-white/85 hover:text-monsterLime hover:bg-white/5 transition">Constitución 1917</a>
+                    <a href="#quiz" class="px-3.5 py-2 rounded-lg text-sm font-medium text-white/85 hover:text-monsterLime hover:bg-white/5 transition">Evaluación</a>
+                </nav>
+
+                <!-- Botones CTA Header -->
+                <div class="flex items-center gap-2.5">
+                    <button onclick="toggleCodeModal()" class="hidden sm:inline-flex items-center gap-2 px-4 py-2.5 rounded-lg text-xs font-black uppercase tracking-wider bg-monsterPurple hover:bg-monsterPurpleHover text-white border border-white/20 transition cursor-pointer">
+                        <span>&lt;/&gt; Código Fuente</span>
+                    </button>
+                    <button id="mobile-menu-btn" class="lg:hidden p-2.5 rounded-lg bg-monsterDark text-white hover:text-monsterLime border border-white/15 focus:outline-none" aria-label="Abrir menú">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Menú Móvil Desplegable -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-monsterDark border-t border-white/10 px-4 pt-3 pb-5 space-y-1.5">
+            <a href="#antecedentes" class="mobile-link block px-3.5 py-2.5 rounded-lg text-sm font-medium text-white hover:bg-monsterPurple">01. Antecedentes y Causas</a>
+            <a href="#cronologia" class="mobile-link block px-3.5 py-2.5 rounded-lg text-sm font-medium text-white hover:bg-monsterPurple">02. Línea del Tiempo (1910–1917)</a>
+            <a href="#personajes" class="mobile-link block px-3.5 py-2.5 rounded-lg text-sm font-medium text-white hover:bg-monsterPurple">03. Directorio de Protagonistas</a>
+            <a href="#galeria" class="mobile-link block px-3.5 py-2.5 rounded-lg text-sm font-medium text-white hover:bg-monsterPurple">04. Galería de la Revolución Mexicana</a>
+            <a href="#constitucion" class="mobile-link block px-3.5 py-2.5 rounded-lg text-sm font-medium text-white hover:bg-monsterPurple">05. Constitución de 1917</a>
+            <a href="#quiz" class="mobile-link block px-3.5 py-2.5 rounded-lg text-sm font-medium text-monsterLime hover:bg-white/10">06. Evaluación Interactiva</a>
+            <div class="pt-2">
+                <button onclick="toggleCodeModal()" class="w-full py-3 rounded-lg text-xs font-black uppercase tracking-wider bg-monsterPurple text-white">
+                    &lt;/&gt; Ver / Copiar Código Fuente
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- 1. HERO PROFESIONAL ESTILO MONSTER CON BUSCADOR Y MÉTRICAS -->
+    <section id="inicio" class="bg-monsterBlack text-white pt-12 pb-16 sm:pt-20 sm:pb-24 border-b-4 border-monsterPurple relative overflow-hidden">
+        <!-- Acento gráfico geométrico -->
+        <div class="absolute top-0 right-0 w-96 h-96 bg-monsterPurple/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3 pointer-events-none"></div>
+        <div class="absolute bottom-0 left-0 w-80 h-80 bg-monsterLime/10 rounded-full blur-3xl translate-y-1/2 -translate-x-1/3 pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="max-w-4xl">
+                <!-- Pill Badge -->
+                <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-monsterDark border border-monsterLime/50 text-monsterLime text-xs font-black uppercase tracking-widest mb-6">
+                    <span class="w-2 h-2 rounded-full bg-monsterLime animate-ping"></span>
+                    <span>Primera Revolución Social del Siglo XX</span>
+                </div>
+
+                <!-- Titular Roboto 900 de Alto Impacto -->
+                <h1 class="text-4xl sm:text-6xl lg:text-7xl font-black tracking-tight leading-[1.05] text-white">
+                    LA REVOLUCIÓN <br class="hidden sm:block">
+                    <span class="text-monsterLime">MEXICANA</span> <span class="text-white/90">1910–1917</span>
+                </h1>
+
+                <p class="text-base sm:text-xl font-normal text-white/80 mt-6 max-w-2xl leading-relaxed">
+                    De la caída del Porfiriato a la promulgación de la Carta Magna de 1917. Explora etapas clave, caudillos, planes revolucionarios y derechos sociales en un formato editorial interactivo.
+                </p>
+
+                <!-- Buscador / Filtro Rápido Estilo Portal Monster -->
+                <div class="mt-8 bg-white p-2 sm:p-2.5 rounded-2xl border-2 border-monsterBlack shadow-neo-purple max-w-3xl">
+                    <form id="hero-search-form" class="flex flex-col sm:flex-row gap-2">
+                        <div class="flex-1 flex items-center px-3 py-2 bg-monsterGray rounded-xl">
+                            <svg class="w-5 h-5 text-monsterPurple mr-2.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                            <input 
+                                type="text" 
+                                id="hero-search-input" 
+                                placeholder="Buscar líder, año o plan (ej. Zapata, 1914, Plan de Ayala, Art. 123)..." 
+                                class="w-full bg-transparent text-monsterBlack placeholder-monsterMuted text-sm sm:text-base font-medium focus:outline-none"
+                            >
+                        </div>
+                        <button type="submit" class="px-6 py-3.5 rounded-xl bg-monsterPurple hover:bg-monsterPurpleHover text-white font-black text-sm uppercase tracking-wider transition cursor-pointer shrink-0">
+                            Explorar Archivo
+                        </button>
+                    </form>
+                    <!-- Etiquetas rápidas sugeridas -->
+                    <div class="flex flex-wrap items-center gap-2 mt-2.5 px-2 pb-1 text-xs">
+                        <span class="font-black text-monsterMuted uppercase">Búsquedas rápidas:</span>
+                        <button type="button" onclick="quickSearch('Zapata')" class="px-2.5 py-1 rounded-full bg-monsterGray hover:bg-monsterBlack hover:text-white text-monsterBlack font-medium transition cursor-pointer">Emiliano Zapata</button>
+                        <button type="button" onclick="quickSearch('Villa')" class="px-2.5 py-1 rounded-full bg-monsterGray hover:bg-monsterBlack hover:text-white text-monsterBlack font-medium transition cursor-pointer">Pancho Villa</button>
+                        <button type="button" onclick="quickSearch('1917')" class="px-2.5 py-1 rounded-full bg-monsterGray hover:bg-monsterBlack hover:text-white text-monsterBlack font-medium transition cursor-pointer">Constitución 1917</button>
+                        <button type="button" onclick="quickSearch('Adelitas')" class="px-2.5 py-1 rounded-full bg-monsterGray hover:bg-monsterBlack hover:text-white text-monsterBlack font-medium transition cursor-pointer">Las Adelitas</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Barra de Métricas Clave Estilo Monster -->
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 mt-12 pt-10 border-t border-white/15">
+                <div class="bg-monsterDark p-5 rounded-xl border border-white/10">
+                    <span class="text-xs font-black uppercase tracking-wider text-monsterLime">Periodo Histórico</span>
+                    <div class="text-3xl sm:text-4xl font-black text-white mt-1">1910–1917</div>
+                    <p class="text-xs text-white/65 mt-1">De la insurrección maderista a la Carta Magna</p>
+                </div>
+                <div class="bg-monsterDark p-5 rounded-xl border border-white/10">
+                    <span class="text-xs font-black uppercase tracking-wider text-monsterPurple">Duración Armada</span>
+                    <div class="text-3xl sm:text-4xl font-black text-white mt-1">7 Años</div>
+                    <p class="text-xs text-white/65 mt-1">De lucha política, agraria y constitucional</p>
+                </div>
+                <div class="bg-monsterDark p-5 rounded-xl border border-white/10">
+                    <span class="text-xs font-black uppercase tracking-wider text-monsterRed">Legado Jurídico</span>
+                    <div class="text-3xl sm:text-4xl font-black text-white mt-1">136 Artículos</div>
+                    <p class="text-xs text-white/65 mt-1">Primera Constitución social del mundo</p>
+                </div>
+                <div class="bg-monsterDark p-5 rounded-xl border border-white/10">
+                    <span class="text-xs font-black uppercase tracking-wider text-monsterLime">Movilización Social</span>
+                    <div class="text-3xl sm:text-4xl font-black text-white mt-1">+1 Millón</div>
+                    <p class="text-xs text-white/65 mt-1">Campesinos, obreros y soldaderas en acción</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. ANTECEDENTES Y CAUSAS (CUADRÍCULA DE ALTO CONTRASTE) -->
+    <section id="antecedentes" class="py-16 sm:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="reveal flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+            <div>
+                <span class="inline-block px-3 py-1 rounded-full bg-monsterBlack text-monsterLime text-xs font-black uppercase tracking-widest mb-3">
+                    01 • Diagnóstico Previo
+                </span>
+                <h2 class="text-3xl sm:text-5xl font-black text-monsterBlack tracking-tight">
+                    ¿Por qué estalló la <span class="monster-highlight">Revolución</span>?
+                </h2>
+            </div>
+            <p class="text-base text-monsterMuted max-w-md font-normal">
+                Cuatro factores estructurales acumulados durante más de tres décadas de régimen porfirista detonaron el levantamiento de 1910.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 reveal">
+            <!-- Tarjeta 1 -->
+            <article class="bg-white p-6 rounded-2xl border-2 border-monsterBlack shadow-neo hover:-translate-y-1 transition-transform flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="px-3 py-1 rounded-full bg-monsterPurple text-white text-xs font-black uppercase">Política</span>
+                        <span class="text-2xl font-black text-monsterBlack/20">01</span>
+                    </div>
+                    <h3 class="text-xl font-black text-monsterBlack mb-2.5">Dictadura del Porfiriato</h3>
+                    <p class="text-sm text-monsterMuted leading-relaxed">
+                        Más de 30 años de permanencia de Porfirio Díaz en el poder (1876–1911) mediante reelecciones sucesivas, censura a la prensa libre y concentración del poder en el grupo tecnocrático de <em>"Los Científicos"</em>.
+                    </p>
+                </div>
+                <div class="mt-6 pt-3 border-t-2 border-monsterGray text-xs font-black uppercase text-monsterPurple">
+                    Sin democracia efectiva
+                </div>
+            </article>
+
+            <!-- Tarjeta 2 -->
+            <article class="bg-white p-6 rounded-2xl border-2 border-monsterBlack shadow-neo hover:-translate-y-1 transition-transform flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="px-3 py-1 rounded-full bg-monsterRed text-white text-xs font-black uppercase">Agraria</span>
+                        <span class="text-2xl font-black text-monsterBlack/20">02</span>
+                    </div>
+                    <h3 class="text-xl font-black text-monsterBlack mb-2.5">Despojo y Latifundios</h3>
+                    <p class="text-sm text-monsterMuted leading-relaxed">
+                        El 1% de la población poseía la mayor parte de la tierra cultivable. Millones de campesinos e indígenas fueron despojados de sus tierras comunales y atados a las haciendas mediante las <em>tiendas de raya</em>.
+                    </p>
+                </div>
+                <div class="mt-6 pt-3 border-t-2 border-monsterGray text-xs font-black uppercase text-monsterRed">
+                    Clamor por Tierra y Libertad
+                </div>
+            </article>
+
+            <!-- Tarjeta 3 -->
+            <article class="bg-white p-6 rounded-2xl border-2 border-monsterBlack shadow-neo hover:-translate-y-1 transition-transform flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="px-3 py-1 rounded-full bg-monsterBlack text-monsterLime text-xs font-black uppercase">Laboral</span>
+                        <span class="text-2xl font-black text-monsterBlack/20">03</span>
+                    </div>
+                    <h3 class="text-xl font-black text-monsterBlack mb-2.5">Explotación Obrera</h3>
+                    <p class="text-sm text-monsterMuted leading-relaxed">
+                        Jornadas de hasta 16 horas, salarios miserables y prohibición de sindicatos. Las huelgas de <strong>Cananea (1906)</strong> y <strong>Río Blanco (1907)</strong> fueron reprimidas sangrientamente por el ejército.
+                    </p>
+                </div>
+                <div class="mt-6 pt-3 border-t-2 border-monsterGray text-xs font-black uppercase text-monsterBlack">
+                    Sin derechos laborales
+                </div>
+            </article>
+
+            <!-- Tarjeta 4 -->
+            <article class="bg-white p-6 rounded-2xl border-2 border-monsterBlack shadow-neo hover:-translate-y-1 transition-transform flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="px-3 py-1 rounded-full bg-monsterLime text-monsterBlack text-xs font-black uppercase">Detonante</span>
+                        <span class="text-2xl font-black text-monsterBlack/20">04</span>
+                    </div>
+                    <h3 class="text-xl font-black text-monsterBlack mb-2.5">Fraude de 1910 y Plan de San Luis</h3>
+                    <p class="text-sm text-monsterMuted leading-relaxed">
+                        Tras encarcelar al candidato opositor <strong>Francisco I. Madero</strong> y reelegirse en 1910, Díaz desató la insurrección nacional convocada para el 20 de noviembre mediante el Plan de San Luis.
+                    </p>
+                </div>
+                <div class="mt-6 pt-3 border-t-2 border-monsterGray text-xs font-black uppercase text-monsterBlack">
+                    Chispa armada de 1910
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- 3. LÍNEA DEL TIEMPO INTERACTIVA (1910 - 1917) -->
+    <section id="cronologia" class="py-16 sm:py-24 bg-monsterGray border-y-2 border-monsterBlack">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="reveal max-w-3xl mb-10">
+                <span class="inline-block px-3 py-1 rounded-full bg-monsterPurple text-white text-xs font-black uppercase tracking-widest mb-3">
+                    02 • Cronología Interactiva
+                </span>
+                <h2 class="text-3xl sm:text-5xl font-black text-monsterBlack tracking-tight">
+                    Siete Años que Transformaron México
+                </h2>
+                <p class="text-base sm:text-lg text-monsterMuted mt-3">
+                    Selecciona cualquier año o etapa clave para analizar los hechos militares, planes políticos y consecuencias históricas.
+                </p>
+            </div>
+
+            <!-- Pestañas de Años Estilo Monster -->
+            <div id="timeline-buttons" class="reveal flex flex-wrap gap-2.5 sm:gap-3 mb-8" role="tablist">
+                <!-- Inyectado por JS -->
+            </div>
+
+            <!-- Tarjeta Principal de Detalle Cronológico -->
+            <div id="timeline-detail-card" class="reveal bg-white rounded-2xl border-2 border-monsterBlack shadow-neo overflow-hidden">
+                <!-- Inyectado por JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. DIRECTORIO DE PROTAGONISTAS Y FACCIONES -->
+    <section id="personajes" class="py-16 sm:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="reveal flex flex-col lg:flex-row lg:items-end justify-between mb-10 gap-6">
+            <div>
+                <span class="inline-block px-3 py-1 rounded-full bg-monsterBlack text-monsterLime text-xs font-black uppercase tracking-widest mb-3">
+                    03 • Directorio Histórico
+                </span>
+                <h2 class="text-3xl sm:text-5xl font-black text-monsterBlack tracking-tight">
+                    Protagonistas y <span class="monster-highlight">Facciones</span>
+                </h2>
+                <p class="text-base text-monsterMuted mt-2 max-w-2xl">
+                    Filtra por corriente revolucionaria o haz clic en cualquier perfil para abrir su ficha completa, lema y legado histórico.
+                </p>
+            </div>
+
+            <!-- Filtros Estilo Pill de Alto Contraste -->
+            <div class="flex flex-wrap gap-2" id="character-filters">
+                <button data-filter="todos" class="filter-btn px-4 py-2.5 rounded-full text-xs font-black uppercase tracking-wider bg-monsterBlack text-monsterLime border-2 border-monsterBlack transition cursor-pointer">
+                    Todos (7)
+                </button>
+                <button data-filter="popular" class="filter-btn px-4 py-2.5 rounded-full text-xs font-black uppercase tracking-wider bg-white text-monsterBlack border-2 border-monsterBlack hover:bg-monsterGray transition cursor-pointer">
+                    Fuerzas Populares
+                </button>
+                <button data-filter="constitucionalista" class="filter-btn px-4 py-2.5 rounded-full text-xs font-black uppercase tracking-wider bg-white text-monsterBlack border-2 border-monsterBlack hover:bg-monsterGray transition cursor-pointer">
+                    Constitucionalistas
+                </button>
+                <button data-filter="regimen" class="filter-btn px-4 py-2.5 rounded-full text-xs font-black uppercase tracking-wider bg-white text-monsterBlack border-2 border-monsterBlack hover:bg-monsterGray transition cursor-pointer">
+                    Antiguo Régimen
+                </button>
+            </div>
+        </div>
+
+        <!-- Cuadrícula de Tarjetas de Personajes -->
+        <div id="characters-grid" class="reveal grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            <!-- Inyectado por JS -->
+        </div>
+    </section>
+
+    <!-- 4.5 GALERÍA DE LA REVOLUCIÓN MEXICANA (5 LÁMINAS HISTÓRICAS) -->
+    <section id="galeria" class="py-16 sm:py-24 bg-monsterGray border-t-2 border-monsterBlack">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="reveal flex flex-col lg:flex-row lg:items-end justify-between mb-12 gap-6">
+                <div>
+                    <span class="inline-block px-3 py-1 rounded-full bg-monsterPurple text-white text-xs font-black uppercase tracking-widest mb-3">
+                        04 • Archivo Visual 1910–1917
+                    </span>
+                    <h2 class="text-3xl sm:text-5xl font-black text-monsterBlack tracking-tight">
+                        Galería de la <span class="monster-highlight">Revolución Mexicana</span>
+                    </h2>
+                </div>
+                <div class="max-w-md space-y-2">
+                    <p class="text-base text-monsterMuted font-normal">
+                        Cinco escenas fundamentales del movimiento armado y constitucional. Haz clic en cada fotografía para inspeccionarla en formato ampliado.
+                    </p>
+                    <p class="text-xs font-medium text-monsterBlack bg-white px-3.5 py-2 rounded-xl border-2 border-monsterBlack">
+                        Guarda tus imágenes como <strong class="font-black text-monsterPurple">1.jpg</strong>, <strong class="font-black text-monsterPurple">2.jpg</strong>, <strong class="font-black text-monsterPurple">3.jpg</strong>, <strong class="font-black text-monsterPurple">4.jpg</strong> y <strong class="font-black text-monsterPurple">5.jpg</strong> en la misma carpeta de este archivo HTML.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Cuadrícula Editorial de 5 Imágenes (1.jpg a 5.jpg) -->
+            <div id="gallery-grid" class="reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Lámina 1: 1.jpg -->
+                <article onclick="openGalleryModal(0)" class="group bg-white rounded-2xl border-2 border-monsterBlack shadow-neo hover:-translate-y-1.5 transition-all duration-200 overflow-hidden cursor-pointer flex flex-col justify-between md:col-span-2 lg:col-span-2">
+                    <div class="relative bg-monsterDark aspect-[16/10] overflow-hidden border-b-2 border-monsterBlack">
+                        <img src="1.jpg" alt="Levantamiento Armado en el Norte — Noviembre 1910" onerror="handleGalleryImageError(this, 0)" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute top-3.5 left-3.5 right-3.5 flex items-center justify-between gap-2">
+                            <span class="px-3 py-1 rounded-full bg-monsterBlack/90 text-monsterLime border border-white/20 text-xs font-black uppercase tracking-wider">Noviembre 1910</span>
+                            <span class="px-2.5 py-1 rounded-lg bg-monsterPurple text-white border border-white/30 text-xs font-black">1.jpg</span>
+                        </div>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col justify-between">
+                        <div>
+                            <span class="text-[11px] font-black uppercase tracking-widest text-monsterPurple">Estallido Maderista</span>
+                            <h3 class="text-xl font-black text-monsterBlack mt-1 group-hover:text-monsterPurple transition-colors">Levantamiento Armado en el Norte</h3>
+                            <p class="text-sm text-monsterMuted mt-2 leading-relaxed">Tras la proclama del Plan de San Luis, contingentes campesinos y obreros se organizan en Chihuahua y Coahuila para enfrentar al régimen porfirista.</p>
+                        </div>
+                        <div class="mt-4 pt-3 border-t-2 border-monsterGray flex items-center justify-between text-xs font-black uppercase tracking-wider text-monsterBlack">
+                            <span>Lámina 01 / 05 • 1.jpg</span>
+                            <span class="text-monsterPurple group-hover:translate-x-1 transition-transform">Ampliar →</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Lámina 2: 2.jpg -->
+                <article onclick="openGalleryModal(1)" class="group bg-white rounded-2xl border-2 border-monsterBlack shadow-neo hover:-translate-y-1.5 transition-all duration-200 overflow-hidden cursor-pointer flex flex-col justify-between">
+                    <div class="relative bg-monsterDark aspect-[16/10] overflow-hidden border-b-2 border-monsterBlack">
+                        <img src="2.jpg" alt="Triunfo Insurgente en la Frontera — Mayo 1911" onerror="handleGalleryImageError(this, 1)" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute top-3.5 left-3.5 right-3.5 flex items-center justify-between gap-2">
+                            <span class="px-3 py-1 rounded-full bg-monsterBlack/90 text-monsterLime border border-white/20 text-xs font-black uppercase tracking-wider">Mayo 1911</span>
+                            <span class="px-2.5 py-1 rounded-lg bg-monsterPurple text-white border border-white/30 text-xs font-black">2.jpg</span>
+                        </div>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col justify-between">
+                        <div>
+                            <span class="text-[11px] font-black uppercase tracking-widest text-monsterPurple">Toma de Ciudad Juárez</span>
+                            <h3 class="text-xl font-black text-monsterBlack mt-1 group-hover:text-monsterPurple transition-colors">Triunfo Insurgente en la Frontera</h3>
+                            <p class="text-sm text-monsterMuted mt-2 leading-relaxed">La capitulación de la plaza fronteriza sella el fin de más de tres décadas de dictadura y abre paso a los Tratados de Ciudad Juárez.</p>
+                        </div>
+                        <div class="mt-4 pt-3 border-t-2 border-monsterGray flex items-center justify-between text-xs font-black uppercase tracking-wider text-monsterBlack">
+                            <span>Lámina 02 / 05 • 2.jpg</span>
+                            <span class="text-monsterPurple group-hover:translate-x-1 transition-transform">Ampliar →</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Lámina 3: 3.jpg -->
+                <article onclick="openGalleryModal(2)" class="group bg-white rounded-2xl border-2 border-monsterBlack shadow-neo hover:-translate-y-1.5 transition-all duration-200 overflow-hidden cursor-pointer flex flex-col justify-between">
+                    <div class="relative bg-monsterDark aspect-[16/10] overflow-hidden border-b-2 border-monsterBlack">
+                        <img src="3.jpg" alt="El Ejército Libertador del Sur — Noviembre 1911" onerror="handleGalleryImageError(this, 2)" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute top-3.5 left-3.5 right-3.5 flex items-center justify-between gap-2">
+                            <span class="px-3 py-1 rounded-full bg-monsterBlack/90 text-monsterLime border border-white/20 text-xs font-black uppercase tracking-wider">Noviembre 1911</span>
+                            <span class="px-2.5 py-1 rounded-lg bg-monsterPurple text-white border border-white/30 text-xs font-black">3.jpg</span>
+                        </div>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col justify-between">
+                        <div>
+                            <span class="text-[11px] font-black uppercase tracking-widest text-monsterPurple">Plan de Ayala en el Sur</span>
+                            <h3 class="text-xl font-black text-monsterBlack mt-1 group-hover:text-monsterPurple transition-colors">El Ejército Libertador del Sur</h3>
+                            <p class="text-sm text-monsterMuted mt-2 leading-relaxed">Emiliano Zapata y los pueblos campesinos de Morelos enarbolan el lema de «Tierra y Libertad» exigiendo la restitución inmediata de sus tierras comunales.</p>
+                        </div>
+                        <div class="mt-4 pt-3 border-t-2 border-monsterGray flex items-center justify-between text-xs font-black uppercase tracking-wider text-monsterBlack">
+                            <span>Lámina 03 / 05 • 3.jpg</span>
+                            <span class="text-monsterPurple group-hover:translate-x-1 transition-transform">Ampliar →</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Lámina 4: 4.jpg -->
+                <article onclick="openGalleryModal(3)" class="group bg-white rounded-2xl border-2 border-monsterBlack shadow-neo hover:-translate-y-1.5 transition-all duration-200 overflow-hidden cursor-pointer flex flex-col justify-between">
+                    <div class="relative bg-monsterDark aspect-[16/10] overflow-hidden border-b-2 border-monsterBlack">
+                        <img src="4.jpg" alt="Alianza de la División del Norte y el Sur — Diciembre 1914" onerror="handleGalleryImageError(this, 3)" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute top-3.5 left-3.5 right-3.5 flex items-center justify-between gap-2">
+                            <span class="px-3 py-1 rounded-full bg-monsterBlack/90 text-monsterLime border border-white/20 text-xs font-black uppercase tracking-wider">Diciembre 1914</span>
+                            <span class="px-2.5 py-1 rounded-lg bg-monsterPurple text-white border border-white/30 text-xs font-black">4.jpg</span>
+                        </div>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col justify-between">
+                        <div>
+                            <span class="text-[11px] font-black uppercase tracking-widest text-monsterPurple">Entrada a la Ciudad de México</span>
+                            <h3 class="text-xl font-black text-monsterBlack mt-1 group-hover:text-monsterPurple transition-colors">Alianza de la División del Norte y el Sur</h3>
+                            <p class="text-sm text-monsterMuted mt-2 leading-relaxed">Después del Pacto de Xochimilco, las tropas de Francisco Villa y Emiliano Zapata desfilan juntas por la capital de la República.</p>
+                        </div>
+                        <div class="mt-4 pt-3 border-t-2 border-monsterGray flex items-center justify-between text-xs font-black uppercase tracking-wider text-monsterBlack">
+                            <span>Lámina 04 / 05 • 4.jpg</span>
+                            <span class="text-monsterPurple group-hover:translate-x-1 transition-transform">Ampliar →</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Lámina 5: 5.jpg -->
+                <article onclick="openGalleryModal(4)" class="group bg-white rounded-2xl border-2 border-monsterBlack shadow-neo hover:-translate-y-1.5 transition-all duration-200 overflow-hidden cursor-pointer flex flex-col justify-between">
+                    <div class="relative bg-monsterDark aspect-[16/10] overflow-hidden border-b-2 border-monsterBlack">
+                        <img src="5.jpg" alt="Congreso Constituyente de Querétaro — Febrero 1917" onerror="handleGalleryImageError(this, 4)" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute top-3.5 left-3.5 right-3.5 flex items-center justify-between gap-2">
+                            <span class="px-3 py-1 rounded-full bg-monsterBlack/90 text-monsterLime border border-white/20 text-xs font-black uppercase tracking-wider">Febrero 1917</span>
+                            <span class="px-2.5 py-1 rounded-lg bg-monsterPurple text-white border border-white/30 text-xs font-black">5.jpg</span>
+                        </div>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col justify-between">
+                        <div>
+                            <span class="text-[11px] font-black uppercase tracking-widest text-monsterPurple">Promulgación de la Constitución</span>
+                            <h3 class="text-xl font-black text-monsterBlack mt-1 group-hover:text-monsterPurple transition-colors">Congreso Constituyente de Querétaro</h3>
+                            <p class="text-sm text-monsterMuted mt-2 leading-relaxed">Venustiano Carranza y los diputados constituyentes promulgan la Carta Magna de 1917, pionera mundial en derechos educativos, agrarios y laborales.</p>
+                        </div>
+                        <div class="mt-4 pt-3 border-t-2 border-monsterGray flex items-center justify-between text-xs font-black uppercase tracking-wider text-monsterBlack">
+                            <span>Lámina 05 / 05 • 5.jpg</span>
+                            <span class="text-monsterPurple group-hover:translate-x-1 transition-transform">Ampliar →</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. LA CONSTITUCIÓN DE 1917 (BLOQUE OSCURO DE ALTO IMPACTO) -->
+    <section id="constitucion" class="py-16 sm:py-24 bg-monsterBlack text-white border-y-4 border-monsterLime">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="reveal max-w-3xl mb-12">
+                <span class="inline-block px-3 py-1 rounded-full bg-monsterPurple text-white text-xs font-black uppercase tracking-widest mb-3">
+                    05 • 5 de Febrero de 1917 • Querétaro
+                </span>
+                <h2 class="text-3xl sm:text-5xl font-black text-white tracking-tight">
+                    La Constitución Política de <span class="text-monsterLime">1917</span>
+                </h2>
+                <p class="text-base sm:text-lg text-white/75 mt-3 leading-relaxed">
+                    Culminación institucional de la Revolución Mexicana. Fue la primera Carta Magna del mundo en elevar las <strong>garantías sociales</strong> (educación, tierra y trabajo) a rango constitucional.
+                </p>
+            </div>
+
+            <!-- Selector de Artículos Sociales -->
+            <div class="reveal bg-white text-monsterBlack rounded-2xl border-2 border-white shadow-neo-lime overflow-hidden">
+                <div class="grid grid-cols-3 border-b-2 border-monsterBlack bg-monsterGray" role="tablist">
+                    <button onclick="selectArticle(0)" id="tab-art-0" class="art-tab py-4 sm:py-5 px-2 sm:px-6 text-center transition cursor-pointer bg-monsterPurple text-white border-r-2 border-monsterBlack">
+                        <span class="block text-base sm:text-xl font-black">Artículo 3°</span>
+                        <span class="block text-[11px] sm:text-xs font-medium opacity-90 mt-0.5">Educación Laica</span>
+                    </button>
+                    <button onclick="selectArticle(1)" id="tab-art-1" class="art-tab py-4 sm:py-5 px-2 sm:px-6 text-center transition cursor-pointer bg-monsterGray text-monsterBlack hover:bg-white border-r-2 border-monsterBlack">
+                        <span class="block text-base sm:text-xl font-black">Artículo 27°</span>
+                        <span class="block text-[11px] sm:text-xs font-medium opacity-75 mt-0.5">Tierra y Nación</span>
+                    </button>
+                    <button onclick="selectArticle(2)" id="tab-art-2" class="art-tab py-4 sm:py-5 px-2 sm:px-6 text-center transition cursor-pointer bg-monsterGray text-monsterBlack hover:bg-white">
+                        <span class="block text-base sm:text-xl font-black">Artículo 123°</span>
+                        <span class="block text-[11px] sm:text-xs font-medium opacity-75 mt-0.5">Derechos Obreros</span>
+                    </button>
+                </div>
+
+                <!-- Contenido Dinámico del Artículo -->
+                <div id="article-content" class="p-6 sm:p-10">
+                    <!-- Inyectado por JS -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. EVALUACIÓN INTERACTIVA (MINI-QUIZ) -->
+    <section id="quiz" class="py-16 sm:py-24 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="reveal text-center mb-10">
+            <span class="inline-block px-3 py-1 rounded-full bg-monsterRed text-white text-xs font-black uppercase tracking-widest mb-3">
+                06 • Comprueba tu Dominio
+            </span>
+            <h2 class="text-3xl sm:text-5xl font-black text-monsterBlack tracking-tight">
+                Evaluación Histórica Rápida
+            </h2>
+            <p class="text-base text-monsterMuted mt-2">
+                Responde estas 5 preguntas clave sobre los planes, caudillos y logros constitucionales de 1910–1917.
+            </p>
+        </div>
+
+        <div id="quiz-container" class="reveal bg-white rounded-2xl border-2 border-monsterBlack shadow-neo p-6 sm:p-8">
+            <!-- Cabecera de progreso -->
+            <div class="flex items-center justify-between text-xs font-black uppercase tracking-wider mb-3">
+                <span id="quiz-progress-text" class="text-monsterBlack">Pregunta 1 de 5</span>
+                <span id="quiz-score-badge" class="px-3 py-1 rounded-full bg-monsterBlack text-monsterLime">Aciertos: 0</span>
+            </div>
+            <div class="w-full bg-monsterGray rounded-full h-3 border border-monsterBlack mb-6 overflow-hidden">
+                <div id="quiz-progress-bar" class="bg-monsterPurple h-full transition-all duration-300" style="width: 20%"></div>
+            </div>
+
+            <!-- Área de Pregunta -->
+            <div id="quiz-question-area">
+                <h3 id="quiz-question" class="text-xl sm:text-2xl font-black text-monsterBlack mb-6 leading-snug"></h3>
+                <div id="quiz-options" class="space-y-3"></div>
+
+                <!-- Retroalimentación Inmediata -->
+                <div id="quiz-feedback" class="hidden mt-6 p-4 rounded-xl border-2 text-sm leading-relaxed"></div>
+
+                <div class="mt-6 flex justify-end">
+                    <button id="quiz-next-btn" onclick="nextQuestion()" class="hidden px-6 py-3.5 rounded-xl bg-monsterBlack hover:bg-monsterPurple text-white font-black text-xs uppercase tracking-wider transition cursor-pointer">
+                        Siguiente Pregunta →
+                    </button>
+                </div>
+            </div>
+
+            <!-- Pantalla de Resultados -->
+            <div id="quiz-result-area" class="hidden text-center py-6 space-y-5">
+                <div class="w-20 h-20 mx-auto rounded-2xl bg-monsterLime border-2 border-monsterBlack shadow-neo text-monsterBlack flex items-center justify-center text-4xl font-black">
+                    ★
+                </div>
+                <h3 id="result-title" class="text-2xl sm:text-3xl font-black text-monsterBlack"></h3>
+                <div id="result-score-text" class="inline-block px-4 py-1.5 rounded-full bg-monsterPurple text-white text-sm font-black uppercase"></div>
+                <p id="result-message" class="text-sm sm:text-base text-monsterMuted max-w-lg mx-auto"></p>
+                <div class="pt-3">
+                    <button onclick="restartQuiz()" class="px-6 py-3.5 rounded-xl bg-monsterBlack hover:bg-monsterPurple text-white font-black text-xs uppercase tracking-wider transition cursor-pointer">
+                        Reiniciar Evaluación
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PIE DE PÁGINA EDITORIAL -->
+    <footer class="bg-monsterBlack text-white border-t-4 border-monsterPurple py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="text-center md:text-left">
+                <div class="flex items-center justify-center md:justify-start gap-2.5">
+                    <span class="px-2.5 py-1 rounded bg-monsterLime text-monsterBlack font-black text-xs">1910–1917</span>
+                    <span class="font-black text-lg tracking-tight uppercase">LA REVOLUCIÓN MEXICANA</span>
+                </div>
+                <p class="text-xs text-white/60 mt-2">
+                    Portal Educativo Interactivo • Tipografía Roboto (pesos 400, 500 y 900) • Diseño Editorial de Alto Contraste
+                </p>
+            </div>
+            <div class="flex flex-wrap items-center justify-center gap-3">
+                <a href="#galeria" class="px-4 py-2.5 rounded-xl bg-monsterDark hover:bg-monsterLime hover:text-monsterBlack text-white border border-white/20 text-xs font-black uppercase tracking-wider transition">
+                    Galería Histórica
+                </a>
+                <button onclick="toggleCodeModal()" class="px-4 py-2.5 rounded-xl bg-monsterPurple hover:bg-monsterPurpleHover text-white text-xs font-black uppercase tracking-wider transition cursor-pointer">
+                    &lt;/&gt; Ver / Copiar Código Fuente
+                </button>
+                <a href="#inicio" class="px-4 py-2.5 rounded-xl bg-monsterDark hover:bg-white hover:text-monsterBlack text-white border border-white/20 text-xs font-black uppercase tracking-wider transition">
+                    ↑ Subir
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODAL VISOR AMPLIADO DE LA GALERÍA -->
+    <div id="gallery-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-monsterBlack/90 backdrop-blur-sm" role="dialog" aria-modal="true">
+        <div class="bg-white text-monsterBlack rounded-2xl max-w-4xl w-full border-2 border-monsterBlack shadow-neo-lime overflow-hidden">
+            <div class="px-6 py-4 bg-monsterBlack text-white flex items-center justify-between border-b-2 border-monsterBlack">
+                <div class="flex items-center gap-3">
+                    <span id="gallery-modal-badge" class="px-3 py-1 rounded-full bg-monsterLime text-monsterBlack text-xs font-black uppercase tracking-wider"></span>
+                    <span id="gallery-modal-counter" class="text-xs font-bold text-white/70"></span>
+                </div>
+                <button onclick="closeGalleryModal()" class="w-9 h-9 rounded-lg bg-white/10 hover:bg-monsterRed text-white font-black transition cursor-pointer" aria-label="Cerrar galería">
+                    ✕
+                </button>
+            </div>
+            <div class="bg-monsterDark flex items-center justify-center max-h-[60vh] overflow-hidden border-b-2 border-monsterBlack">
+                <img id="gallery-modal-img" src="" alt="" class="w-full h-auto max-h-[60vh] object-contain">
+            </div>
+            <div class="p-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-white">
+                <div>
+                    <h3 id="gallery-modal-title" class="text-xl sm:text-2xl font-black text-monsterBlack"></h3>
+                    <p id="gallery-modal-desc" class="text-sm text-monsterMuted mt-1 leading-relaxed"></p>
+                </div>
+                <div class="flex items-center gap-2 shrink-0">
+                    <button onclick="navigateGallery(-1)" class="px-4 py-2.5 rounded-xl bg-monsterGray hover:bg-monsterBlack hover:text-white text-monsterBlack border-2 border-monsterBlack text-xs font-black uppercase tracking-wider transition cursor-pointer">
+                        ← Anterior
+                    </button>
+                    <button onclick="navigateGallery(1)" class="px-4 py-2.5 rounded-xl bg-monsterBlack hover:bg-monsterPurple text-white border-2 border-monsterBlack text-xs font-black uppercase tracking-wider transition cursor-pointer">
+                        Siguiente →
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL DE FICHA BIOGRÁFICA DE PERSONAJE -->
+    <div id="character-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-monsterBlack/80 backdrop-blur-sm" role="dialog" aria-modal="true">
+        <div class="bg-white text-monsterBlack rounded-2xl max-w-2xl w-full border-2 border-monsterBlack shadow-neo-lime overflow-hidden">
+            <div id="modal-header-banner" class="p-6 text-white flex justify-between items-start border-b-2 border-monsterBlack">
+                <div>
+                    <span id="modal-role" class="inline-block px-3 py-1 rounded-full bg-monsterBlack text-monsterLime text-xs font-black uppercase tracking-wider mb-2"></span>
+                    <h3 id="modal-name" class="text-2xl sm:text-4xl font-black tracking-tight"></h3>
+                    <p id="modal-years" class="text-sm font-medium opacity-90 mt-1"></p>
+                </div>
+                <button onclick="closeCharacterModal()" class="w-9 h-9 rounded-lg bg-monsterBlack text-white hover:bg-monsterLime hover:text-monsterBlack font-black transition cursor-pointer" aria-label="Cerrar ventana">
+                    ✕
+                </button>
+            </div>
+            <div class="p-6 sm:p-7 space-y-5 max-h-[72vh] overflow-y-auto">
+                <div class="p-4 rounded-xl bg-monsterGray border-l-4 border-monsterPurple">
+                    <span class="text-[11px] font-black uppercase tracking-widest text-monsterPurple">Lema o Frase Histórica</span>
+                    <p id="modal-quote" class="text-base sm:text-lg font-black text-monsterBlack mt-1"></p>
+                </div>
+                <div>
+                    <h4 class="text-xs font-black uppercase tracking-widest text-monsterMuted mb-1.5">Trayectoria y Papel Revolucionario</h4>
+                    <p id="modal-bio" class="text-sm sm:text-base text-monsterBlack leading-relaxed"></p>
+                </div>
+                <div>
+                    <h4 class="text-xs font-black uppercase tracking-widest text-monsterMuted mb-1.5">Legado Histórico</h4>
+                    <p id="modal-legacy" class="text-sm sm:text-base text-monsterBlack leading-relaxed"></p>
+                </div>
+            </div>
+            <div class="px-6 py-4 bg-monsterGray border-t-2 border-monsterBlack flex justify-end">
+                <button onclick="closeCharacterModal()" class="px-5 py-2.5 rounded-xl bg-monsterBlack hover:bg-monsterPurple text-white text-xs font-black uppercase tracking-wider transition cursor-pointer">
+                    Cerrar Ficha
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL PARA VER / COPIAR EL CÓDIGO FUENTE COMPLETO -->
+    <div id="code-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-monsterBlack/85 backdrop-blur-sm" role="dialog" aria-modal="true">
+        <div class="bg-monsterBlack text-white rounded-2xl max-w-4xl w-full border-2 border-monsterPurple shadow-neo-purple overflow-hidden flex flex-col max-h-[88vh]">
+            <div class="px-6 py-4 bg-monsterDark border-b border-white/15 flex flex-wrap items-center justify-between gap-3">
+                <div>
+                    <span class="text-[11px] font-black uppercase tracking-widest text-monsterLime">Archivo Único Autocontenido</span>
+                    <h3 class="text-lg font-black text-white">Código Fuente HTML + CSS (Roboto) + JS</h3>
+                </div>
+                <div class="flex items-center gap-2">
+                    <button onclick="copySourceCode()" class="px-4 py-2 rounded-lg bg-monsterLime hover:bg-white text-monsterBlack text-xs font-black uppercase tracking-wider transition cursor-pointer">
+                        📋 Copiar Código
+                    </button>
+                    <button onclick="toggleCodeModal()" class="w-8 h-8 rounded-lg bg-white/10 hover:bg-monsterRed text-white font-black text-sm cursor-pointer">
+                        ✕
+                    </button>
+                </div>
+            </div>
+            <div class="p-4 overflow-auto flex-1 bg-[#09090B]">
+                <pre id="source-code-display" class="text-xs font-mono text-white/90 whitespace-pre-wrap break-words leading-relaxed"></pre>
+            </div>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT INTERACTIVO -->
+    <script>
+        // ==========================================
+        // 1. DATOS: LÍNEA DEL TIEMPO (1910–1917)
+        // ==========================================
+        const timelineData = [
+            {
+                year: "1910",
+                shortTitle: "Plan de San Luis y Estallido Armado",
+                date: "5 de octubre – 20 de noviembre de 1910",
+                badge: "Fase 01 • Insurrección Maderista",
+                accentClass: "bg-monsterPurple text-white",
+                summary: "Tras el fraude electoral que perpetuó a Porfirio Díaz en la presidencia, Francisco I. Madero redacta el Plan de San Luis Potosí declarando nulos los comicios y llamando al pueblo mexicano a tomar las armas el 20 de noviembre de 1910.",
+                keyDocument: "Plan de San Luis Potosí: Exigía 'Sufragio Efectivo, No Reelección' y prometía revisar los despojos de tierras sufridos por los campesinos.",
+                consequences: "Estallan levantamientos en Chihuahua (Pascual Orozco y Pancho Villa) y en Morelos (Emiliano Zapata), desbordando al ejército federal."
+            },
+            {
+                year: "1911",
+                shortTitle: "Toma de Ciudad Juárez y Plan de Ayala",
+                date: "Mayo – Noviembre de 1911",
+                badge: "Fase 02 • Caída de Díaz y Ruptura Agraria",
+                accentClass: "bg-monsterRed text-white",
+                summary: "La victoria revolucionaria en Ciudad Juárez obliga a Porfirio Díaz a renunciar en mayo de 1911. Madero gana las elecciones democráticas en noviembre, pero su negativa a ejecutar un reparto agrario inmediato provoca la ruptura con el movimiento zapatista.",
+                keyDocument: "Plan de Ayala (25 de noviembre de 1911): Proclamado por Emiliano Zapata bajo el lema 'Reforma, Libertad, Justicia y Ley', desconocía a Madero y exigía la restitución inmediata de tierras.",
+                consequences: "Concluye el Porfiriato tras 34 años, pero se abre la brecha entre la revolución política y la revolución social campesina."
+            },
+            {
+                year: "1913",
+                shortTitle: "Decena Trágica y Plan de Guadalupe",
+                date: "Febrero – Marzo de 1913",
+                badge: "Fase 03 • Golpe Militar y Constitucionalismo",
+                accentClass: "bg-monsterBlack text-monsterLime",
+                summary: "En febrero de 1913 ocurre la 'Decena Trágica': militares golpistas liderados por Victoriano Huerta traicionan y asesinan al presidente Madero y al vicepresidente Pino Suárez. Huerta instaura una dictadura militar.",
+                keyDocument: "Plan de Guadalupe (26 de marzo de 1913): Venustiano Carranza, gobernador de Coahuila, desconoce a Huerta y crea el Ejército Constitucionalista.",
+                consequences: "Se articulan tres grandes fuerzas contra Huerta: la División del Norte (Villa), el Ejército del Noroeste (Obregón) y el Ejército Libertador del Sur (Zapata)."
+            },
+            {
+                year: "1914",
+                shortTitle: "Convención de Aguascalientes y Pacto de Xochimilco",
+                date: "Julio – Diciembre de 1914",
+                badge: "Fase 04 • Guerra de Facciones",
+                accentClass: "bg-monsterPurple text-white",
+                summary: "Tras la decisiva Toma de Zacatecas por Pancho Villa, Victoriano Huerta huye del país en julio de 1914. La Soberana Convención de Aguascalientes intenta unir a los revolucionarios, pero estalla la guerra civil entre facciones.",
+                keyDocument: "Pacto de Xochimilco (4 de diciembre de 1914): Alianza estratégica entre Villa y Zapata, quienes ocupan juntos la Ciudad de México.",
+                consequences: "México queda dividido entre los Convencionistas (Villa y Zapata) y los Constitucionalistas (Carranza y Obregón)."
+            },
+            {
+                year: "1915",
+                shortTitle: "Las Batallas de Celaya",
+                date: "Abril de 1915",
+                badge: "Fase 05 • Definición Militar",
+                accentClass: "bg-monsterRed text-white",
+                summary: "En el Bajío se libran los combates decisivos de la guerra civil. Álvaro Obregón implementa trincheras, alambradas y ametralladoras modernas para frenar las cargas de caballería de la División del Norte de Pancho Villa.",
+                keyDocument: "Ley Agraria del 6 de enero de 1915: Expedida por Carranza en Veracruz para incorporar demandas campesinas y restar base social al villismo y zapatismo.",
+                consequences: "La derrota de Villa en Celaya consolida la hegemonía militar de Venustiano Carranza y el bando constitucionalista."
+            },
+            {
+                year: "1917",
+                shortTitle: "Promulgación de la Constitución de 1917",
+                date: "5 de febrero de 1917",
+                badge: "Fase 06 • Culminación Constitucional",
+                accentClass: "bg-monsterLime text-monsterBlack",
+                summary: "El Congreso Constituyente reunido en Querétaro promulga la nueva Constitución Política de los Estados Unidos Mexicanos, sintetizando las demandas políticas y sociales por las que luchó el pueblo mexicano.",
+                keyDocument: "Constitución de 1917: Consagra la educación laica y gratuita (Art. 3°), la propiedad nacional de tierras y subsuelo (Art. 27°) y los derechos laborales (Art. 123°).",
+                consequences: "Marca el fin formal de la etapa armada y establece las bases jurídicas del Estado social mexicano moderno."
+            }
+        ];
+
+        // ==========================================
+        // 2. DATOS: DIRECTORIO DE PROTAGONISTAS
+        // ==========================================
+        const charactersData = [
+            {
+                id: "diaz",
+                name: "Porfirio Díaz",
+                years: "1830 – 1915",
+                role: "Presidente / Antiguo Régimen",
+                category: "regimen",
+                tagText: "El Porfiriato",
+                bannerColor: "bg-monsterBlack",
+                initials: "PD",
+                quote: "«Poca política y mucha administración»",
+                bio: "Militar destacado en la guerra contra la intervención francesa que gobernó México durante más de treinta años (1876–1911). Modernizó ferrocarriles, puertos e industria, pero suprimió la democracia y permitió el acaparamiento de tierras.",
+                legacy: "Su reelección en 1910 detonó el estallido revolucionario. Renunció en mayo de 1911 tras la caída de Ciudad Juárez y murió en el exilio en París."
+            },
+            {
+                id: "madero",
+                name: "Francisco I. Madero",
+                years: "1873 – 1913",
+                role: "Apóstol de la Democracia",
+                category: "constitucionalista",
+                tagText: "Antirreeleccionista",
+                bannerColor: "bg-monsterPurple",
+                initials: "FM",
+                quote: "«Sufragio Efectivo, No Reelección»",
+                bio: "Político coahuilense fundador del Partido Nacional Antirreeleccionista. Redactó el Plan de San Luis convocando a la insurrección de 1910 y asumió la presidencia mediante elecciones democráticas en 1911.",
+                legacy: "Inició la democracia moderna en México. Fue derrocado y asesinado en febrero de 1913 durante el golpe de Estado de la Decena Trágica."
+            },
+            {
+                id: "zapata",
+                name: "Emiliano Zapata",
+                years: "1879 – 1919",
+                role: "El Caudillo del Sur",
+                category: "popular",
+                tagText: "Ejército Libertador del Sur",
+                bannerColor: "bg-monsterRed",
+                initials: "EZ",
+                quote: "«Tierra y Libertad»",
+                bio: "Líder agrarista originario de Anenecuilco, Morelos. Encabezó el Ejército Libertador del Sur exigiendo la restitución inmediata de las tierras comunales usurpadas por las haciendas azucareras.",
+                legacy: "Autor del Plan de Ayala (1911). Su lucha fue decisiva para que la reforma agraria quedara garantizada en el Artículo 27 de la Constitución de 1917."
+            },
+            {
+                id: "villa",
+                name: "Francisco 'Pancho' Villa",
+                years: "1878 – 1923",
+                role: "El Centauro del Norte",
+                category: "popular",
+                tagText: "División del Norte",
+                bannerColor: "bg-monsterRed",
+                initials: "PV",
+                quote: "«¿Qué sería de México si todos fuéramos generales?»",
+                bio: "Doroteo Arango, brillante comandante de la poderosa División del Norte. Sus triunfos en Torreón y Zacatecas fueron fundamentales para destruir al ejército federal de Victoriano Huerta.",
+                legacy: "Ícono de la lucha popular norteña. Como gobernador de Chihuahua impulsó la construcción de escuelas, el abasto popular y el reparto de tierras."
+            },
+            {
+                id: "carranza",
+                name: "Venustiano Carranza",
+                years: "1859 – 1920",
+                role: "Primer Jefe Constitucionalista",
+                category: "constitucionalista",
+                tagText: "Constitucionalismo",
+                bannerColor: "bg-monsterPurple",
+                initials: "VC",
+                quote: "«Todo ciudadano armado en defensa de las instituciones»",
+                bio: "Gobernador de Coahuila que encabezó la resistencia legal y militar contra el usurpador Victoriano Huerta mediante el Plan de Guadalupe en 1913.",
+                legacy: "Convocó el Congreso Constituyente de Querétaro que promulgó la Constitución de 1917, institucionalizando el nuevo régimen."
+            },
+            {
+                id: "obregon",
+                name: "Álvaro Obregón",
+                years: "1880 – 1928",
+                role: "Estratega del Noroeste",
+                category: "constitucionalista",
+                tagText: "Ejército del Noroeste",
+                bannerColor: "bg-monsterBlack",
+                initials: "AO",
+                quote: "«La revolución triunfante debe convertirse en gobierno»",
+                bio: "Militar sonorense invicto que comandó el Ejército del Noroeste y derrotó a Pancho Villa en las Batallas de Celaya (1915), donde perdió el brazo derecho.",
+                legacy: "Respaldó a los diputados constituyentes radicales para incluir los artículos 3°, 27° y 123° en 1917; fue presidente de México de 1920 a 1924."
+            },
+            {
+                id: "adelitas",
+                name: "Las Adelitas (Soldaderas)",
+                years: "1910 – 1920",
+                role: "Vanguardia y Sostén Revolucionario",
+                category: "popular",
+                tagText: "Mujeres en la Revolución",
+                bannerColor: "bg-monsterRed",
+                initials: "LA",
+                quote: "«Si Adelita se fuera con otro, la seguiría por tierra y por mar»",
+                bio: "Miles de mujeres campesinas, obreras y maestras que sostuvieron la logística, alimentación, enfermería y espionaje de las tropas, además de combatir en el frente alcanzando grados militares.",
+                legacy: "Transformaron la participación femenina en México e impulsaron los primeros congresos feministas (Yucatán, 1916)."
+            }
+        ];
+
+        // ==========================================
+        // 3. DATOS: CONSTITUCIÓN DE 1917
+        // ==========================================
+        const constitutionArticles = [
+            {
+                number: "Artículo 3°",
+                title: "Educación Pública, Laica, Gratuita y Obligatoria",
+                subtitle: "Transformación cultural y formación ciudadana",
+                essence: "Estableció que la educación impartida por el Estado debe ser gratuita, obligatoria y completamente laica, garantizando el acceso universal al saber científico y cívico sin dogmas religiosos.",
+                impact: [
+                    "Democracia educativa para niños y jóvenes de zonas rurales y urbanas.",
+                    "Base jurídica para la creación de la Secretaría de Educación Pública (SEP) en 1921.",
+                    "Impulso decisivo a las campañas nacionales de alfabetización."
+                ],
+                quote: "«La enseñanza es libre; pero será laica la que se dé en los establecimientos oficiales de educación, así como la enseñanza primaria, elemental y superior que se imparta en los establecimientos particulares.»"
+            },
+            {
+                number: "Artículo 27°",
+                title: "Propiedad Nacional de Tierras, Aguas y Subsuelo",
+                subtitle: "Reforma agraria y soberanía sobre recursos naturales",
+                essence: "Declaró que la propiedad original de tierras y aguas corresponde a la Nación, estableciendo el reparto agrario y el dominio directo del Estado sobre el petróleo y minerales del subsuelo.",
+                impact: [
+                    "Fraccionamiento de latifundios para dotar de ejidos y tierras a los pueblos campesinos.",
+                    "Restitución de tierras comunales despojadas durante el Porfiriato.",
+                    "Sustento constitucional para la posterior Expropiación Petrolera de 1938."
+                ],
+                quote: "«La propiedad de las tierras y aguas comprendidas dentro de los límites del territorio nacional, corresponde originariamente a la Nación...»"
+            },
+            {
+                number: "Artículo 123°",
+                title: "Derechos Laborales y Justicia Social Obrera",
+                subtitle: "Pionero mundial en garantías para los trabajadores",
+                essence: "Elevó por primera vez en la historia mundial los derechos de los trabajadores a rango constitucional, eliminando las jornadas extenuantes y las tiendas de raya.",
+                impact: [
+                    "Jornada laboral máxima de 8 horas diarias (7 horas en turno nocturno).",
+                    "Salario mínimo remunerador, descanso semanal obligatorio y prohibición del trabajo infantil.",
+                    "Derecho a la sindicalización, a la huelga y protección especial a la maternidad."
+                ],
+                quote: "«Toda persona tiene derecho al trabajo digno y socialmente útil; al efecto, se promoverán la creación de empleos y la organización social de trabajo, conforme a la ley.»"
+            }
+        ];
+
+        // ==========================================
+        // 4. DATOS: EVALUACIÓN INTERACTIVA (QUIZ)
+        // ==========================================
+        const quizQuestions = [
+            {
+                question: "¿Qué plan proclamó Francisco I. Madero en 1910 convocando al levantamiento armado el 20 de noviembre?",
+                options: [
+                    "El Plan de Ayala",
+                    "El Plan de San Luis Potosí",
+                    "El Plan de Guadalupe",
+                    "Los Tratados de Ciudad Juárez"
+                ],
+                correct: 1,
+                explanation: "En el Plan de San Luis (5 de octubre de 1910), Madero declaró nulas las elecciones y llamó al pueblo a tomar las armas bajo el lema 'Sufragio Efectivo, No Reelección'."
+            },
+            {
+                question: "¿Qué caudillo proclamó el Plan de Ayala en 1911 exigiendo 'Tierra y Libertad' para los campesinos?",
+                options: [
+                    "Venustiano Carranza",
+                    "Álvaro Obregón",
+                    "Emiliano Zapata",
+                    "Victoriano Huerta"
+                ],
+                correct: 2,
+                explanation: "Emiliano Zapata, comandante del Ejército Libertador del Sur, proclamó el Plan de Ayala el 25 de noviembre de 1911 para exigir la restitución inmediata de tierras."
+            },
+            {
+                question: "¿En qué batalla de 1915 Álvaro Obregón derrotó decisivamente a la División del Norte de Pancho Villa?",
+                options: [
+                    "Toma de Zacatecas",
+                    "Batallas de Celaya",
+                    "Toma de Ciudad Juárez",
+                    "Sitio de Cuautla"
+                ],
+                correct: 1,
+                explanation: "En las Batallas de Celaya (abril de 1915), Obregón empleó trincheras, alambradas y ametralladoras frente a la caballería villista, definiendo el triunfo constitucionalista."
+            },
+            {
+                question: "¿Qué artículo de la Constitución de 1917 estableció la jornada de 8 horas, el salario mínimo y el derecho a huelga?",
+                options: [
+                    "Artículo 3°",
+                    "Artículo 27°",
+                    "Artículo 123°",
+                    "Artículo 130°"
+                ],
+                correct: 2,
+                explanation: "El Artículo 123° convirtió a la Constitución mexicana de 1917 en la primera del mundo en consagrar garantías laborales y sindicales."
+            },
+            {
+                question: "¿Cuál fue el aporte esencial de 'Las Adelitas' o soldaderas en la Revolución Mexicana?",
+                options: [
+                    "Únicamente redactaban leyes en Querétaro",
+                    "Sostuvieron la logística, alimentación, sanidad y muchas combatieron en el frente armado",
+                    "Representaron diplomáticamente a Porfirio Díaz en Europa",
+                    "Administraban exclusivamente bancos en la capital"
+                ],
+                correct: 1,
+                explanation: "Las soldaderas fueron vitales para la supervivencia de los ejércitos revolucionarios en campaña y muchas combatieron obteniendo grados militares."
+            }
+        ];
+
+        // ==========================================
+        // 5. DATOS: GALERÍA DE LA REVOLUCIÓN MEXICANA
+        // ==========================================
+        const galleryItems = [
+            {
+                src: "1.jpg",
+                date: "Noviembre 1910",
+                stage: "Estallido Maderista",
+                title: "Levantamiento Armado en el Norte",
+                description: "Tras la proclama del Plan de San Luis, contingentes campesinos y obreros se organizan en Chihuahua y Coahuila para enfrentar al régimen porfirista.",
+                accent: "#6E00FF"
+            },
+            {
+                src: "2.jpg",
+                date: "Mayo 1911",
+                stage: "Toma de Ciudad Juárez",
+                title: "Triunfo Insurgente en la Frontera",
+                description: "La capitulación de la plaza fronteriza sella el fin de más de tres décadas de dictadura y abre paso a los Tratados de Ciudad Juárez.",
+                accent: "#FF2E4C"
+            },
+            {
+                src: "3.jpg",
+                date: "Noviembre 1911",
+                stage: "Plan de Ayala en el Sur",
+                title: "El Ejército Libertador del Sur",
+                description: "Emiliano Zapata y los pueblos campesinos de Morelos enarbolan el lema de «Tierra y Libertad» exigiendo la restitución inmediata de sus tierras comunales.",
+                accent: "#00E676"
+            },
+            {
+                src: "4.jpg",
+                date: "Diciembre 1914",
+                stage: "Entrada a la Ciudad de México",
+                title: "Alianza de la División del Norte y el Sur",
+                description: "Después del Pacto de Xochimilco, las tropas de Francisco Villa y Emiliano Zapata desfilan juntas por la capital de la República.",
+                accent: "#6E00FF"
+            },
+            {
+                src: "5.jpg",
+                date: "Febrero 1917",
+                stage: "Promulgación de la Constitución",
+                title: "Congreso Constituyente de Querétaro",
+                description: "Venustiano Carranza y los diputados constituyentes promulgan la Carta Magna de 1917, pionera mundial en derechos educativos, agrarios y laborales.",
+                accent: "#00E676"
+            }
+        ];
+
+        // ==========================================
+        // RENDERIZADO Y LÓGICA INTERACTIVA
+        // ==========================================
+
+        // --- A. Línea del Tiempo ---
+        let activeTimelineIdx = 0;
+
+        function renderTimelineControls() {
+            const container = document.getElementById('timeline-buttons');
+            container.innerHTML = timelineData.map((item, idx) => {
+                const isActive = idx === activeTimelineIdx;
+                return `
+                    <button 
+                        onclick="selectTimelineYear(${idx})"
+                        role="tab"
+                        aria-selected="${isActive}"
+                        class="px-4 py-3 sm:px-5 sm:py-3.5 rounded-xl font-black text-sm sm:text-base transition-all flex items-center gap-2 border-2 border-monsterBlack cursor-pointer ${
+                            isActive 
+                            ? 'bg-monsterBlack text-monsterLime shadow-neo-purple -translate-y-0.5' 
+                            : 'bg-white text-monsterBlack hover:bg-monsterLime/20'
+                        }">
+                        <span>${item.year}</span>
+                        <span class="hidden lg:inline text-xs font-medium opacity-80">• ${item.shortTitle.split(' ')[0]}</span>
+                    </button>
+                `;
+            }).join('');
+        }
+
+        function selectTimelineYear(index) {
+            activeTimelineIdx = index;
+            renderTimelineControls();
+            const item = timelineData[index];
+            const card = document.getElementById('timeline-detail-card');
+
+            card.innerHTML = `
+                <div class="grid grid-cols-1 lg:grid-cols-12">
+                    <div class="lg:col-span-4 bg-monsterBlack text-white p-6 sm:p-8 flex flex-col justify-between border-b-2 lg:border-b-0 lg:border-r-2 border-monsterBlack">
+                        <div>
+                            <span class="inline-block px-3 py-1 rounded-full text-xs font-black uppercase tracking-wider ${item.accentClass} mb-4">
+                                ${item.badge}
+                            </span>
+                            <div class="text-5xl sm:text-6xl font-black text-monsterLime tracking-tight">${item.year}</div>
+                            <h3 class="text-2xl font-black text-white mt-2 leading-snug">${item.shortTitle}</h3>
+                            <p class="text-xs font-medium text-white/70 mt-2">📅 ${item.date}</p>
+                        </div>
+                        <div class="mt-8 pt-4 border-t border-white/15 flex items-center justify-between text-xs font-black uppercase">
+                            <button onclick="navigateTimeline(-1)" class="px-3.5 py-2 rounded-lg bg-white/10 hover:bg-monsterPurple transition cursor-pointer ${index === 0 ? 'opacity-30 pointer-events-none' : ''}">
+                                ← Anterior
+                            </button>
+                            <span class="text-monsterLime">${index + 1} / ${timelineData.length}</span>
+                            <button onclick="navigateTimeline(1)" class="px-3.5 py-2 rounded-lg bg-white/10 hover:bg-monsterPurple transition cursor-pointer ${index === timelineData.length - 1 ? 'opacity-30 pointer-events-none' : ''}">
+                                Siguiente →
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="lg:col-span-8 p-6 sm:p-8 space-y-6 bg-white">
+                        <div>
+                            <span class="text-xs font-black uppercase tracking-widest text-monsterPurple">Síntesis del Acontecimiento</span>
+                            <p class="text-base sm:text-lg text-monsterBlack mt-1.5 leading-relaxed">${item.summary}</p>
+                        </div>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div class="p-4 rounded-xl bg-monsterGray border-2 border-monsterBlack">
+                                <h5 class="text-xs font-black uppercase text-monsterPurple mb-1.5">📜 Documento o Acción Clave</h5>
+                                <p class="text-sm text-monsterBlack leading-relaxed">${item.keyDocument}</p>
+                            </div>
+                            <div class="p-4 rounded-xl bg-monsterGray border-2 border-monsterBlack">
+                                <h5 class="text-xs font-black uppercase text-monsterRed mb-1.5">⚡ Impacto y Consecuencias</h5>
+                                <p class="text-sm text-monsterBlack leading-relaxed">${item.consequences}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function navigateTimeline(step) {
+            const nextIdx = activeTimelineIdx + step;
+            if (nextIdx >= 0 && nextIdx < timelineData.length) {
+                selectTimelineYear(nextIdx);
+            }
+        }
+
+        // --- B. Directorio de Personajes ---
+        function renderCharacters(filter = 'todos') {
+            const grid = document.getElementById('characters-grid');
+            const filtered = filter === 'todos' 
+                ? charactersData 
+                : charactersData.filter(c => c.category === filter);
+
+            grid.innerHTML = filtered.map(char => `
+                <article onclick="openCharacterModal('${char.id}')" class="group bg-white rounded-2xl border-2 border-monsterBlack shadow-neo hover:-translate-y-1.5 transition-all duration-200 overflow-hidden cursor-pointer flex flex-col justify-between">
+                    <div>
+                        <div class="${char.bannerColor} p-5 text-white flex items-center justify-between border-b-2 border-monsterBlack">
+                            <div class="w-12 h-12 rounded-xl bg-white text-monsterBlack flex items-center justify-center font-black text-lg border-2 border-monsterBlack">
+                                ${char.initials}
+                            </div>
+                            <span class="text-xs font-black px-3 py-1 rounded-full bg-monsterBlack/40 border border-white/20">
+                                ${char.years}
+                            </span>
+                        </div>
+                        <div class="p-5">
+                            <span class="inline-block px-2.5 py-0.5 rounded bg-monsterGray text-monsterPurple text-[11px] font-black uppercase tracking-wider">${char.tagText}</span>
+                            <h3 class="text-xl font-black text-monsterBlack mt-2 group-hover:text-monsterPurple transition-colors">${char.name}</h3>
+                            <p class="text-xs font-medium text-monsterMuted mb-3">${char.role}</p>
+                            <p class="text-sm text-monsterBlack/85 line-clamp-3 leading-relaxed">${char.bio}</p>
+                        </div>
+                    </div>
+                    <div class="px-5 py-3.5 bg-monsterGray border-t-2 border-monsterBlack flex items-center justify-between text-xs font-black uppercase tracking-wider text-monsterBlack group-hover:bg-monsterLime transition-colors">
+                        <span>Abrir Ficha Completa</span>
+                        <span>→</span>
+                    </div>
+                </article>
+            `).join('');
+        }
+
+        // Filtros de personajes
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.filter-btn').forEach(b => {
+                    b.classList.remove('bg-monsterBlack', 'text-monsterLime');
+                    b.classList.add('bg-white', 'text-monsterBlack');
+                });
+                btn.classList.remove('bg-white', 'text-monsterBlack');
+                btn.classList.add('bg-monsterBlack', 'text-monsterLime');
+                renderCharacters(btn.dataset.filter);
+            });
+        });
+
+        function openCharacterModal(id) {
+            const char = charactersData.find(c => c.id === id);
+            if (!char) return;
+
+            const banner = document.getElementById('modal-header-banner');
+            banner.className = `p-6 text-white flex justify-between items-start border-b-2 border-monsterBlack ${char.bannerColor}`;
+            
+            document.getElementById('modal-role').textContent = `${char.tagText} • ${char.role}`;
+            document.getElementById('modal-name').textContent = char.name;
+            document.getElementById('modal-years').textContent = char.years;
+            document.getElementById('modal-quote').textContent = char.quote;
+            document.getElementById('modal-bio').textContent = char.bio;
+            document.getElementById('modal-legacy').textContent = char.legacy;
+
+            const modal = document.getElementById('character-modal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        }
+
+        function closeCharacterModal() {
+            const modal = document.getElementById('character-modal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        }
+
+        // --- B2. Galería de la Revolución Mexicana ---
+        let activeGalleryIdx = 0;
+
+        function createHistoricalFallbackSvg(item, index) {
+            const num = String(index + 1).padStart(2, '0');
+            const svg = `
+                <svg xmlns="http://www.w3.org/2000/svg" width="800" height="520" viewBox="0 0 800 520">
+                    <defs>
+                        <pattern id="grid-${index}" width="32" height="32" patternUnits="userSpaceOnUse">
+                            <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#FFFFFF" stroke-opacity="0.06" stroke-width="1"/>
+                        </pattern>
+                    </defs>
+                    <rect width="800" height="520" fill="#0F0F12"/>
+                    <rect width="800" height="520" fill="url(#grid-${index})"/>
+                    <rect x="28" y="28" width="744" height="464" rx="18" fill="#18181D" stroke="${item.accent}" stroke-width="3"/>
+                    <rect x="56" y="56" width="190" height="34" rx="17" fill="${item.accent}"/>
+                    <text x="151" y="78" fill="${item.accent === '#00E676' ? '#0F0F12' : '#FFFFFF'}" font-family="Roboto, sans-serif" font-size="14" font-weight="900" text-anchor="middle">${item.date.toUpperCase()}</text>
+                    <text x="740" y="96" fill="#FFFFFF" fill-opacity="0.14" font-family="Roboto, sans-serif" font-size="68" font-weight="900" text-anchor="end">${num}</text>
+                    <text x="56" y="362" fill="#FFFFFF" fill-opacity="0.72" font-family="Roboto, sans-serif" font-size="17" font-weight="400">Archivo Histórico (${item.src}) • Revolución Mexicana (1910–1917)</text>
+                </svg>
+            `.trim();
+            return 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent(svg);
+        }
+
+        function handleGalleryImageError(imgEl, index) {
+            if (imgEl.dataset.fallbackApplied === 'true') return;
+            imgEl.dataset.fallbackApplied = 'true';
+            imgEl.src = createHistoricalFallbackSvg(galleryItems[index], index);
+        }
+
+        function renderGallery() {
+            const grid = document.getElementById('gallery-grid');
+            if (!grid) return;
+
+            grid.innerHTML = galleryItems.map((item, idx) => {
+                const spanClass = idx === 0 ? 'md:col-span-2 lg:col-span-2' : '';
+                return `
+                    <article onclick="openGalleryModal(${idx})" class="group bg-white rounded-2xl border-2 border-monsterBlack shadow-neo hover:-translate-y-1.5 transition-all duration-200 overflow-hidden cursor-pointer flex flex-col justify-between ${spanClass}">
+                        <div class="relative bg-monsterDark aspect-[16/10] overflow-hidden border-b-2 border-monsterBlack">
+                            <img 
+                                src="${item.src}" 
+                                alt="${item.title} — ${item.date}" 
+                                onerror="handleGalleryImageError(this, ${idx})"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                            >
+                            <div class="absolute top-3.5 left-3.5 right-3.5 flex items-center justify-between gap-2">
+                                <span class="px-3 py-1 rounded-full bg-monsterBlack/90 text-monsterLime border border-white/20 text-xs font-black uppercase tracking-wider">
+                                    ${item.date}
+                                </span>
+                                <span class="px-2.5 py-1 rounded-lg bg-monsterPurple text-white border border-white/30 text-xs font-black">
+                                    ${item.src}
+                                </span>
+                            </div>
+                        </div>
+                        <div class="p-5 flex-1 flex flex-col justify-between">
+                            <div>
+                                <span class="text-[11px] font-black uppercase tracking-widest text-monsterPurple">${item.stage}</span>
+                                <h3 class="text-xl font-black text-monsterBlack mt-1 group-hover:text-monsterPurple transition-colors">${item.title}</h3>
+                                <p class="text-sm text-monsterMuted mt-2 leading-relaxed">${item.description}</p>
+                            </div>
+                            <div class="mt-4 pt-3 border-t-2 border-monsterGray flex items-center justify-between text-xs font-black uppercase tracking-wider text-monsterBlack">
+                                <span>Lámina 0${idx + 1} / 0${galleryItems.length} • ${item.src}</span>
+                                <span class="text-monsterPurple group-hover:translate-x-1 transition-transform">Ampliar →</span>
+                            </div>
+                        </div>
+                    </article>
+                `;
+            }).join('');
+        }
+
+        function openGalleryModal(index) {
+            activeGalleryIdx = index;
+            updateGalleryModalContent();
+            const modal = document.getElementById('gallery-modal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        }
+
+        function updateGalleryModalContent() {
+            const item = galleryItems[activeGalleryIdx];
+            const imgEl = document.getElementById('gallery-modal-img');
+            imgEl.dataset.fallbackApplied = 'false';
+            imgEl.onerror = () => handleGalleryImageError(imgEl, activeGalleryIdx);
+            imgEl.src = item.src;
+            imgEl.alt = `${item.title} — ${item.date}`;
+
+            document.getElementById('gallery-modal-badge').textContent = `${item.date} • ${item.stage}`;
+            document.getElementById('gallery-modal-counter').textContent = `Lámina ${activeGalleryIdx + 1} de ${galleryItems.length} (${item.src})`;
+            document.getElementById('gallery-modal-title').textContent = item.title;
+            document.getElementById('gallery-modal-desc').textContent = item.description;
+        }
+
+        function navigateGallery(step) {
+            activeGalleryIdx = (activeGalleryIdx + step + galleryItems.length) % galleryItems.length;
+            updateGalleryModalContent();
+        }
+
+        function closeGalleryModal() {
+            const modal = document.getElementById('gallery-modal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        }
+
+        // --- C. Buscador Rápido del Hero ---
+        function executeSearch(rawQuery) {
+            const query = rawQuery.trim().toLowerCase();
+            if (!query) {
+                showToast('Escribe un nombre, año o plan para buscar.');
+                return;
+            }
+
+            // 1. Buscar coincidencia en personajes
+            const matchedChar = charactersData.find(c => 
+                c.name.toLowerCase().includes(query) || 
+                c.tagText.toLowerCase().includes(query) ||
+                c.bio.toLowerCase().includes(query)
+            );
+            if (matchedChar) {
+                document.getElementById('personajes').scrollIntoView({ behavior: 'smooth' });
+                setTimeout(() => openCharacterModal(matchedChar.id), 450);
+                showToast(`Mostrando ficha de ${matchedChar.name}`);
+                return;
+            }
+
+            // 2. Buscar coincidencia en línea del tiempo
+            const matchedTimeIdx = timelineData.findIndex(t => 
+                t.year.includes(query) || 
+                t.shortTitle.toLowerCase().includes(query) || 
+                t.keyDocument.toLowerCase().includes(query)
+            );
+            if (matchedTimeIdx !== -1) {
+                selectTimelineYear(matchedTimeIdx);
+                document.getElementById('cronologia').scrollIntoView({ behavior: 'smooth' });
+                showToast(`Mostrando hito histórico de ${timelineData[matchedTimeIdx].year}`);
+                return;
+            }
+
+            // 3. Buscar coincidencia en artículos constitucionales
+            if (query.includes('123') || query.includes('obrer') || query.includes('trabajo')) {
+                selectArticle(2);
+                document.getElementById('constitucion').scrollIntoView({ behavior: 'smooth' });
+                showToast('Mostrando Artículo 123° Constitucional');
+                return;
+            }
+            if (query.includes('27') || query.includes('tierra') || query.includes('petroleo')) {
+                selectArticle(1);
+                document.getElementById('constitucion').scrollIntoView({ behavior: 'smooth' });
+                showToast('Mostrando Artículo 27° Constitucional');
+                return;
+            }
+            if (query.includes('3') || query.includes('educacion') || query.includes('constitucion')) {
+                selectArticle(0);
+                document.getElementById('constitucion').scrollIntoView({ behavior: 'smooth' });
+                showToast('Mostrando Constitución de 1917');
+                return;
+            }
+
+            showToast(`No se encontró coincidencia exacta para "${rawQuery}". Explora las secciones abajo.`);
+        }
+
+        document.getElementById('hero-search-form').addEventListener('submit', (e) => {
+            e.preventDefault();
+            executeSearch(document.getElementById('hero-search-input').value);
+        });
+
+        function quickSearch(term) {
+            document.getElementById('hero-search-input').value = term;
+            executeSearch(term);
+        }
+
+        // --- D. Constitución de 1917 ---
+        function selectArticle(index) {
+            document.querySelectorAll('.art-tab').forEach((tab, idx) => {
+                if (idx === index) {
+                    tab.classList.add('bg-monsterPurple', 'text-white');
+                    tab.classList.remove('bg-monsterGray', 'text-monsterBlack');
+                } else {
+                    tab.classList.remove('bg-monsterPurple', 'text-white');
+                    tab.classList.add('bg-monsterGray', 'text-monsterBlack');
+                }
+            });
+
+            const art = constitutionArticles[index];
+            const content = document.getElementById('article-content');
+            content.innerHTML = `
+                <div class="space-y-6">
+                    <div class="border-b-2 border-monsterGray pb-4">
+                        <span class="inline-block px-3 py-1 rounded-full bg-monsterLime text-monsterBlack text-xs font-black uppercase tracking-widest">${art.number} Constitucional</span>
+                        <h3 class="text-2xl sm:text-3xl font-black text-monsterBlack mt-2">${art.title}</h3>
+                        <p class="text-sm font-medium text-monsterMuted mt-1">${art.subtitle}</p>
+                    </div>
+
+                    <p class="text-base sm:text-lg text-monsterBlack leading-relaxed">${art.essence}</p>
+
+                    <div class="bg-monsterGray p-5 sm:p-6 rounded-xl border-2 border-monsterBlack">
+                        <h4 class="text-xs font-black uppercase tracking-widest text-monsterPurple mb-3">Garantías Sociales Consagradas:</h4>
+                        <ul class="space-y-2.5">
+                            ${art.impact.map(point => `
+                                <li class="flex items-start gap-3 text-sm sm:text-base text-monsterBlack font-medium">
+                                    <span class="w-5 h-5 rounded bg-monsterBlack text-monsterLime flex items-center justify-center text-xs font-black shrink-0 mt-0.5">✓</span>
+                                    <span>${point}</span>
+                                </li>
+                            `).join('')}
+                        </ul>
+                    </div>
+
+                    <blockquote class="p-4 sm:p-5 rounded-xl bg-monsterBlack text-white/90 text-xs sm:text-sm italic border-l-4 border-monsterLime leading-relaxed">
+                        ${art.quote}
+                    </blockquote>
+                </div>
+            `;
+        }
+
+        // --- E. Mini-Quiz Interactivo ---
+        let currentQuizIdx = 0;
+        let quizScore = 0;
+        let questionAnswered = false;
+
+        function loadQuizQuestion() {
+            questionAnswered = false;
+            const q = quizQuestions[currentQuizIdx];
+            
+            document.getElementById('quiz-progress-text').textContent = `Pregunta ${currentQuizIdx + 1} de ${quizQuestions.length}`;
+            document.getElementById('quiz-score-badge').textContent = `Aciertos: ${quizScore}`;
+            document.getElementById('quiz-progress-bar').style.width = `${((currentQuizIdx + 1) / quizQuestions.length) * 100}%`;
+            
+            document.getElementById('quiz-question').textContent = q.question;
+            document.getElementById('quiz-feedback').classList.add('hidden');
+            document.getElementById('quiz-next-btn').classList.add('hidden');
+
+            const optionsContainer = document.getElementById('quiz-options');
+            optionsContainer.innerHTML = q.options.map((opt, idx) => `
+                <button onclick="submitQuizAnswer(${idx})" id="opt-btn-${idx}" class="w-full text-left p-4 rounded-xl border-2 border-monsterBlack bg-white hover:bg-monsterGray transition font-medium text-sm sm:text-base text-monsterBlack flex items-center gap-3.5 cursor-pointer">
+                    <span class="w-8 h-8 rounded-lg bg-monsterBlack text-white flex items-center justify-center text-xs font-black shrink-0">
+                        ${String.fromCharCode(65 + idx)}
+                    </span>
+                    <span>${opt}</span>
+                </button>
+            `).join('');
+        }
+
+        function submitQuizAnswer(selectedIdx) {
+            if (questionAnswered) return;
+            questionAnswered = true;
+
+            const q = quizQuestions[currentQuizIdx];
+            const isCorrect = selectedIdx === q.correct;
+            if (isCorrect) quizScore++;
+
+            document.getElementById('quiz-score-badge').textContent = `Aciertos: ${quizScore}`;
+
+            q.options.forEach((_, idx) => {
+                const btn = document.getElementById(`opt-btn-${idx}`);
+                btn.disabled = true;
+                btn.classList.remove('hover:bg-monsterGray');
+                
+                if (idx === q.correct) {
+                    btn.classList.remove('bg-white');
+                    btn.classList.add('bg-monsterLime/30', 'border-monsterBlack', 'font-black');
+                } else if (idx === selectedIdx && !isCorrect) {
+                    btn.classList.remove('bg-white');
+                    btn.classList.add('bg-monsterRed/20', 'border-monsterRed');
+                } else {
+                    btn.classList.add('opacity-50');
+                }
+            });
+
+            const feedback = document.getElementById('quiz-feedback');
+            feedback.classList.remove('hidden', 'bg-monsterLime/20', 'border-monsterBlack', 'bg-monsterRed/15', 'border-monsterRed');
+            
+            if (isCorrect) {
+                feedback.classList.add('bg-monsterLime/25', 'border-monsterBlack');
+                feedback.innerHTML = `<strong class="font-black uppercase text-monsterBlack">✓ ¡Respuesta Correcta!</strong> <span class="block mt-1 text-monsterBlack">${q.explanation}</span>`;
+            } else {
+                feedback.classList.add('bg-monsterRed/15', 'border-monsterRed');
+                feedback.innerHTML = `<strong class="font-black uppercase text-monsterRed">✕ Respuesta Incorrecta.</strong> <span class="block mt-1 text-monsterBlack">${q.explanation}</span>`;
+            }
+
+            const nextBtn = document.getElementById('quiz-next-btn');
+            nextBtn.textContent = currentQuizIdx === quizQuestions.length - 1 ? "Ver Resultado Final →" : "Siguiente Pregunta →";
+            nextBtn.classList.remove('hidden');
+        }
+
+        function nextQuestion() {
+            if (currentQuizIdx < quizQuestions.length - 1) {
+                currentQuizIdx++;
+                loadQuizQuestion();
+            } else {
+                showQuizResults();
+            }
+        }
+
+        function showQuizResults() {
+            document.getElementById('quiz-question-area').classList.add('hidden');
+            const resultArea = document.getElementById('quiz-result-area');
+            resultArea.classList.remove('hidden');
+
+            document.getElementById('result-score-text').textContent = `Puntuación Final: ${quizScore} / ${quizQuestions.length}`;
+            
+            const title = document.getElementById('result-title');
+            const msg = document.getElementById('result-message');
+
+            if (quizScore === 5) {
+                title.textContent = "¡Dominio Histórico Total!";
+                msg.textContent = "Conoces con precisión los planes revolucionarios, las facciones militares y los artículos sociales de 1917.";
+            } else if (quizScore >= 3) {
+                title.textContent = "¡Excelente Desempeño!";
+                msg.textContent = "Tienes una sólida comprensión de las etapas y protagonistas clave de la Revolución Mexicana.";
+            } else {
+                title.textContent = "¡Sigue Explorando el Archivo!";
+                msg.textContent = "Repasa la Línea del Tiempo y la Constitución de 1917 para dominar cada acontecimiento.";
+            }
+        }
+
+        function restartQuiz() {
+            currentQuizIdx = 0;
+            quizScore = 0;
+            document.getElementById('quiz-result-area').classList.add('hidden');
+            document.getElementById('quiz-question-area').classList.remove('hidden');
+            loadQuizQuestion();
+        }
+
+        // --- F. Utilidades UI (Menú Móvil, Modal Código, Toast, Scroll Reveal) ---
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        document.querySelectorAll('.mobile-link').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        function showToast(message) {
+            const toast = document.getElementById('toast-notification');
+            document.getElementById('toast-message').textContent = message;
+            toast.classList.remove('translate-y-24', 'opacity-0');
+            setTimeout(() => {
+                toast.classList.add('translate-y-24', 'opacity-0');
+            }, 3200);
+        }
+
+        function toggleCodeModal() {
+            const modal = document.getElementById('code-modal');
+            const isHidden = modal.classList.contains('hidden');
+            if (isHidden) {
+                const fullHtml = '<!DOCTYPE html>\n' + document.documentElement.outerHTML;
+                document.getElementById('source-code-display').textContent = fullHtml;
+                modal.classList.remove('hidden');
+                modal.classList.add('flex');
+            } else {
+                modal.classList.add('hidden');
+                modal.classList.remove('flex');
+            }
+        }
+
+        function copySourceCode() {
+            const codeText = document.getElementById('source-code-display').textContent;
+            const tempTextarea = document.createElement('textarea');
+            tempTextarea.value = codeText;
+            document.body.appendChild(tempTextarea);
+            tempTextarea.select();
+            try {
+                document.execCommand('copy');
+                showToast('¡Código fuente copiado al portapapeles!');
+            } catch (err) {
+                showToast('No se pudo copiar automáticamente.');
+            }
+            document.body.removeChild(tempTextarea);
+        }
+
+        window.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closeCharacterModal();
+                closeGalleryModal();
+                const codeModal = document.getElementById('code-modal');
+                if (!codeModal.classList.contains('hidden')) toggleCodeModal();
+            }
+            const galleryModal = document.getElementById('gallery-modal');
+            if (!galleryModal.classList.contains('hidden')) {
+                if (e.key === 'ArrowRight') navigateGallery(1);
+                if (e.key === 'ArrowLeft') navigateGallery(-1);
+            }
+        });
+
+        document.getElementById('character-modal').addEventListener('click', (e) => {
+            if (e.target.id === 'character-modal') closeCharacterModal();
+        });
+
+        document.getElementById('gallery-modal').addEventListener('click', (e) => {
+            if (e.target.id === 'gallery-modal') closeGalleryModal();
+        });
+
+        document.getElementById('code-modal').addEventListener('click', (e) => {
+            if (e.target.id === 'code-modal') toggleCodeModal();
+        });
+
+        function initScrollReveal() {
+            const reveals = document.querySelectorAll('.reveal');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                    }
+                });
+            }, { threshold: 0.08 });
+
+            reveals.forEach(el => observer.observe(el));
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            selectTimelineYear(0);
+            renderCharacters('todos');
+            renderGallery();
+            selectArticle(0);
+            loadQuizQuestion();
+            initScrollReveal();
+        });
+    </script>
+</body>
+</html>
